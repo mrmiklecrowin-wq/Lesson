@@ -1,7 +1,6 @@
 #include <iostream>
 
 int main() {
-  setlocale (LC_ALL,"");
-  std::wcout << L"Михаил\n";
-  std::cout << 33 << "\n";
+  std::cout << "Михаил" << std::endl;
+  std::cout << 33 << std::endl;
 }
